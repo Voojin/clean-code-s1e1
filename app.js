@@ -193,3 +193,10 @@ for (var i=0; i<completedTasksHolder.children.length;i++){
 //prevent creation of empty tasks.
 
 //Change edit to save when you are in edit mode.
+
+function test(number) {
+    let sum = 2 + number
+    return sum
+}
+
+console.log(test(1))
